@@ -5,4 +5,4 @@ RUN ls /provided-notebook/
 
 VOLUME /notebook
 
-CMD cp -r -u /provided-notebook/* /notebook/ ; bash
+CMD cp -r -u /provided-notebook/* /notebook/
