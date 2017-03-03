@@ -1,5 +1,5 @@
 pipeline {
-  agent  label:'has-docker', dockerfile: true
+  agent  {dockerfile}
   stages {
     stage("Build") {
       steps {
